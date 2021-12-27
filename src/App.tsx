@@ -7,7 +7,7 @@ function App() {
   return (
       <div>
         <Header></Header>
-        <ChessBoard></ChessBoard>
+        <ChessBoard boardWidth={600}></ChessBoard>
       </div>
   );
 }
